@@ -15,6 +15,7 @@
   flex-direction: column;
   padding: 10px;
   align-items: flex-start;
+  width: 100%;
 }
 
 .listItem .image{
@@ -23,13 +24,12 @@
 
 .listItem .time {
   padding: 10px;
-  width: 100%;
   text-align: end;
 }
 
 .listItem .image img{
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border: 1px solid gray;
-  border-radius: 50px;
+  border-radius: 30px;
 }
