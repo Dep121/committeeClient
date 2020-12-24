@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Header from "./Header";
-import Home from './Home';
+import ChatList from "./containers/ChatList/ChatList";
 
 export default function Routes() {
   return (
@@ -27,7 +27,7 @@ export default function Routes() {
             </div>
           </Route>
           <Route path="/">
-            <Home />
+            <ChatList/>
           </Route>
         </Switch>
       </div>
