@@ -1,0 +1,18 @@
+.routeHeader div{
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.routeHeader div span{
+  padding: 5px 10px 10px 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.routeHeader div span:hover{
+  background-color: rgb(233, 226, 226);
+  color: green;
+  cursor: grab;
+  border-bottom: 2px solid green;
+}
